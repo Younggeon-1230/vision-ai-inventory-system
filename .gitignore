@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Runtime database
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated data
+outputs/
+runs/
+tmp/
+temp/
+videos/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
